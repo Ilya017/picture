@@ -12,7 +12,7 @@ window.onload = function () {
     let name = image.id;
     name = name + ".jpg";
     image.src = "images/" + name;
-    if (prompt("Введите название животного, Первые буквы: " + image.id.substring(0,1)) == image.id) {
+    if (prompt("Введите название картины, Первые буквы: " + image.id.substring(0,1)) == image.id) {
       alert("Верно!");
     } else {
       alert("Неверно!");
